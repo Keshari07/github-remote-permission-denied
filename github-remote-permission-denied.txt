@@ -1,0 +1,42 @@
+https://stackoverflow.com/questions/47465644/github-remote-permission-denied
+
+
+Microsoft Windows [Version 10.0.22631.2506]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\acer\Desktop\Git_Example\November\09-Nov-2023>git clone https://github.com/Keshari07/Subvesrion.git
+Cloning into 'Subvesrion'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+C:\Users\acer\Desktop\Git_Example\November\09-Nov-2023>cd Subvesrion
+
+C:\Users\acer\Desktop\Git_Example\November\09-Nov-2023\Subvesrion>git add .
+
+C:\Users\acer\Desktop\Git_Example\November\09-Nov-2023\Subvesrion>git commit -m "SVN install"
+[master 70ecf71] SVN install
+ 2 files changed, 3647 insertions(+)
+ create mode 100644 Install and Configure SVN Server on Ubuntu 22.04 - OrcaCore.pdf
+ create mode 100644 tomcat8_doc/tomcat_doc.txt
+
+C:\Users\acer\Desktop\Git_Example\November\09-Nov-2023\Subvesrion>git push
+remote: Permission to Keshari07/Subvesrion.git denied to alliance1210.
+fatal: unable to access 'https://github.com/Keshari07/Subvesrion.git/': The requested URL returned error: 403
+
+C:\Users\acer\Desktop\Git_Example\November\09-Nov-2023\Subvesrion>git config user.name "xyz05185"
+
+C:\Users\acer\Desktop\Git_Example\November\09-Nov-2023\Subvesrion>git config credential.username 
+"token_key"
+
+C:\Users\acer\Desktop\Git_Example\November\09-Nov-2023\Subvesrion>git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 450.46 KiB | 25.03 MiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/Keshari07/Subvesrion.git
+   a94d2d1..70ecf71  master -> master
+
